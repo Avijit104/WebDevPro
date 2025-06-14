@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0;
+            margin: 0;
+            background-color: #1a1a1a;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login {
+            background-color: #2c2c2c;
+            border-radius: 15px;
+            padding: 30px;
+            width: 300px;
+        }
+
+        h1 {
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input {
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            background-color: #3a3a3a;
+            border: none;
+            color: #ffffff;
+        }
+
+        input::placeholder {
+            color: #ffffff;
+        }
+
+        #login {
+            background-color: #00bbff;
+            padding: 10px;
+            color: #ffffff;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            font-size: 18px;
+        }
+
+        #login:hover {
+            background-color: #0c85b1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login">
+        <h1>Login</h1>
+        <div class="input">
+            <form action="#">
+                <input type="email" name="email" id="email" placeholder="Enter your Email">
+                <input type="password" id="pass" name="pass" placeholder="Enter your Password">
+                <button type="submit" id="login">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

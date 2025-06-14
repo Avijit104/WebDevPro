@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /* universal selector */
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /* type selector  */
+        p {
+            color: #838181;
+            margin-bottom: 10px;
+        }
+
+        /* class selector  */
+        .highlight {
+            background-color: #0bf;
+            padding: 10px;
+        }
+
+        /* id selector  */
+        #header {
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+        }
+
+        /* attribute selector  */
+        input[type="text"] {
+            border: 2px solid #0bf;
+            height: 30px;
+        }
+
+        /* decendent selector  */
+        article p {
+            font-style: italic;
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+        }
+
+        /* child selector  */
+        div>p {
+            color: orangered;
+        }
+
+        /* adjacent sibling selector  */
+        h1+p {
+            color: #ff0000;
+        }
+
+        /* general sibling selector  */
+        h1~p {
+            background-color: violet;
+            padding: 10px;
+        }
+
+        /* pseudo class selector  */
+        a:hover {
+            text-decoration: none;
+            color: white;
+            background-color: green;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        /* pseudo element selector  */
+        p::first-letter {
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        /* goruping selector */
+        h1,
+        h2,
+        h3 {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">this is a header</header>
+    <h1>this is main header</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, similique?</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p class="highlight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla distinctio itaque alias animi
+        nostrum laborum sequi officiis voluptates autem nisi?</p>
+    <input type="text" name="input" id="input">
+    <article>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi corrupti at nostrum quod, omnis aliquid?
+        </p>
+        <section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, consectetur facere, ullam expedita
+                vitae sequi non sint fuga ab dolorem deserunt sed dolorum inventore fugiat, deleniti laboriosam nulla
+                magni! Corrupti atque blanditiis eius. Maiores, veniam.</p>
+        </section>
+    </article>
+    <div>
+        <p>direct child</p>
+        <p>
+            another direct child
+        <section>
+            <p>decendent</p>
+        </section>
+        </p>
+        <p>another direct child</p>
+    </div>
+    <h2>sub heading</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quidem tenetur sunt. Obcaecati numquam nam
+        fugit quidem ea, eius, aperiam dolor provident quam explicabo facere unde nisi minima dolorum libero.</p>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dicta.</div>
+    <p>Lorem.</p>
+    <a href="#">hover</a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit facilis, facere soluta doloribus hic est maiores
+        iure cupiditate voluptate temporibus quae nostrum cumque sint provident quasi deleniti ipsa. Consectetur
+        obcaecati alias reiciendis velit. Facilis enim accusamus corporis doloremque excepturi voluptates, modi delectus
+        dicta similique?</p>
+    <h3>heading 3</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, aperiam?</p>
+</body>
+
+</html>
