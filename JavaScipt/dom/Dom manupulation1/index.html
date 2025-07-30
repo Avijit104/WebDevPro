@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .heighlight {
+            background-color: yellowgreen;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>js dom manupulation</h1>
+    <!-- example 1 -->
+    <section>
+        <h2>change text</h2>
+        <p id="myPara">this is a text</p>
+        <button id="changeText">Change Text</button>
+    </section>
+    <!-- example 2 -->
+    <section>
+        <h2>heighlight the first city</h2>
+        <ul id="citylist">
+            <li>kolkata</li>
+            <li>bangalore</li>
+            <li>bishnupur</li>
+
+        </ul>
+        <button id="highCity">heighlight</button>
+    </section>
+
+    <!-- example 3 -->
+    <section>
+        <h2>change order</h2>
+        <div id="coffeeOrder">order: <span id="coffeeType">latte</span></div>
+        <button id="changeOrder">Change to espresso</button>
+    </section>
+
+    <!-- example 4  -->
+    <section>
+        <h3>Add new Element</h3>
+        <button id="addItem">Add</button>
+        <ul id="items">
+            <li>Milk</li>
+            <li>Bread</li>
+        </ul>
+    </section>
+
+    <!-- example 5 -->
+    <section>
+        <h2>Remove a Child</h2>
+        <ul id="tasks">
+            <li>task1</li>
+            <li>task2</li>
+            <li id="task">task3</li>
+        </ul>
+        <button id="removeItem">Remove</button>
+    </section>
+
+    <!-- example 6 -->
+    <section>
+        <h2>Click me event</h2>
+        <button id="clickMe">Click Me</button>
+    </section>
+
+    <!-- example 7 -->
+    <section>
+        <h2>Event Deligation</h2>
+        <ul>
+            <li class="teaItem">green tea</li>
+            <li class="teaItem">black tea</li>
+            <li class="teaItem">ice tea</li>
+        </ul>
+    </section>
+
+    <!-- example 8 -->
+    <section>
+        <h2>form handeling </h2>
+        <p id="view"></p>
+        <form action="#" id="feedbackForm">
+            <input type="text" id="feedbackInput" placeholder="feedback">
+            <button id="feedBtn" type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- example 9 -->
+    <section>
+        <h2>dom content loaded</h2>
+        <p id="domStatus">DOM content is Loading .....</p>
+    </section>
+
+    <!-- example 10 -->
+    <section>
+        <h2>CSS manupulation</h2>
+        <p id="descText" class="heighlight">This text will change color ..</p>
+        <button id="toggleColor">Toggle</button>
+    </section>
+
+    <script src="./Script.js"> </script>
+</body>
+
+</html>
