@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+.center {
+  @apply flex justify-center items-center gap-2 gray;
+}
+
+@utility gray {
+  @apply bg-gray-900;
+  @apply shadow-xl shadow-amber-200;
+}
+
+@layer component {
+  .card {
+    @apply w-[50px] h-[50px] bg-amber-500 shadow-[0_0_50px] shadow-amber-500;
+  }
+}
