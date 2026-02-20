@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>shoping cart</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="products">
+            <h2>Products</h2>
+            <div class="add-product">
+                <div class="input">
+                    <input type="text" id="product-name" name="product-name" placeholder="Enter your product name">
+                    <input type="text" id="product-price" name="product-price" placeholder="Enter your product Price">
+                </div>
+                <button id="add-product">Add</button>
+            </div>
+            <div id="product-list" class="products-list">
+            </div>
+        </div>
+        <div class="your-cart" id="your-cart">
+            <div class="cart-header">
+                <h2>Your Cart</h2>
+                <button id="remove-all">Remove all</button>
+            </div>
+            <div class="cart-list" id="cart-list">
+
+            </div>
+            <div class="cart-value">
+                <p>Total Price: <span id="total-price"></span></p>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
