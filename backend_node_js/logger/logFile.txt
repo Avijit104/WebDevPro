@@ -1,0 +1,11 @@
+log : application started 
+log : current memeory usage : 44.847428170228795 
+log : current memeory usage : 44.694794667912696 
+log : current memeory usage : 44.69668112222749 
+log : current memeory usage : 44.72952477555426 
+log : current memeory usage : 45.25674038591534 
+log : current memeory usage : 45.4113087131697 
+log : current memeory usage : 45.43181785751514 
+log : current memeory usage : 45.39846631264207 
+log : current memeory usage : 45.408575772944424 
+log : current memeory usage : 45.411187786611066 
